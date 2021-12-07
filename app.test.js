@@ -35,7 +35,7 @@ describe("grid setup", () => {
     expect(numberOfNeighbours).toBe(2);
   });
   it("tests the edges of rectangle", () => {
-    const grid = game.createGrid(8, 5);
+    const grid = game.createGrid(5, 8);
     grid[6][4] = 1;
     grid[7][3] = 1;
 
